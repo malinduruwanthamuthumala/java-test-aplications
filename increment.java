@@ -10,6 +10,8 @@ boys=3;
 people=girls+boys;
 System.out.println(girls++);
 System.out.print(girls);
+girls+=10;
+System.out.println(girls);
 }
 
 }
