@@ -10,8 +10,7 @@
  */
 public class NewClass {
  
-public static void main(String args[]){
-
-System.out.println("malindu");
+public void simplemessage(){
+System.out.println("this is another class");
 }
 }

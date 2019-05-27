@@ -13,15 +13,27 @@ public class switchpractice {
 
 
 public static void main(String args[]){
-int a =10;
-switch (a){
-    case 1:
-        System.out.print("you are a animal");
-        break;
-    case 10:
-        System.out.println("you are a vegetable");
-        break;
-}
-        
+int a =0;
+//switch (a){
+//    case 10:
+//        System.out.print("you are a animal");
+//        break;
+//    case 5:
+//        System.out.println("you are a vegetable");
+//        break;
+//    default:
+//        System.out.println("you are nothing");
+//}
+//  while(a<10){
+//      System.out.println(a);
+//      a++;
+//  }  
+    //  do {
+    //     System.out.println(a);
+    //     a++;
+    //} while (a<10);
+NewClass newclassobject=new NewClass();
+newclassobject.simplemessage();
+
 }
 }
