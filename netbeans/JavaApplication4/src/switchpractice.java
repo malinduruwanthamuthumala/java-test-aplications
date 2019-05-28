@@ -45,11 +45,14 @@ Scanner innput=new Scanner(System.in);
 //System.out.println("what is your girlfiriend name");
 //String girlname=innput.nextLine();
 
-girlname girlnameobject=new girlname("nila");
-girlname girlnameobject2=new girlname("nilassi");
-//girlnameobject.setname(girlname);
+//girlname girlnameobject=new girlname("nila");
+//girlname girlnameobject2=new girlname("nilassi");
+////girlnameobject.setname(girlname);
+////girlnameobject.display();
 //girlnameobject.display();
-girlnameobject.display();
-girlnameobject2.display();
+//girlnameobject2.display();
+System.out.println("enter numbers");
+averagecal object1=new averagecal();
+object1.average();
 }
 }
