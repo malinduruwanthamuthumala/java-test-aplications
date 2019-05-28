@@ -51,8 +51,14 @@ Scanner innput=new Scanner(System.in);
 ////girlnameobject.display();
 //girlnameobject.display();
 //girlnameobject2.display();
-System.out.println("enter numbers");
-averagecal object1=new averagecal();
-object1.average();
+//System.out.println("enter numbers");
+//averagecal object1=new averagecal();
+//object1.average();
+System.out.println(Math.abs(-854.5));
+System.out.println(Math.ceil(8.4));
+System.out.println(Math.floor(7.8 ));
+System.out.println(Math.min(6.8,4.5));
+System.out.println(Math.pow(5,4));
+System.out.println(Math.sqrt(9));
 }
 }
