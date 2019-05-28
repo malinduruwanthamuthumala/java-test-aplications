@@ -8,6 +8,7 @@
  *
  * @author Malindu
  */
+import java.util.Scanner;
 public class switchpractice {
     
 
@@ -31,9 +32,22 @@ int a =0;
     //  do {
     //     System.out.println(a);
     //     a++;
-    //} while (a<10);
-NewClass newclassobject=new NewClass();
-newclassobject.simplemessage();
+    //} while (a<10)
+Scanner innput=new Scanner(System.in);
+//NewClass newclassobject=new NewClass();
+//newclassobject.simplemessage();
+//System.out.println("what is your name");
+//String name=innput.nextLine();
+
+//apples newappleobject=new apples();
+//newappleobject.getapples(name);
+
+System.out.println("what is your girlfiriend name");
+String girlname=innput.nextLine();
+
+girlname girlnameobject=new girlname();
+girlnameobject.setname(girlname);
+girlnameobject.display();
 
 }
 }
