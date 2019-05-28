@@ -10,7 +10,9 @@
  */
 public class girlname {
    private String girlname;
-   
+   public girlname(String name){
+   girlname=name;
+   }
    public void setname(String name){
       girlname=name;
    }

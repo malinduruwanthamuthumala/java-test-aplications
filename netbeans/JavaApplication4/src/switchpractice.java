@@ -41,13 +41,15 @@ Scanner innput=new Scanner(System.in);
 
 //apples newappleobject=new apples();
 //newappleobject.getapples(name);
+//
+//System.out.println("what is your girlfiriend name");
+//String girlname=innput.nextLine();
 
-System.out.println("what is your girlfiriend name");
-String girlname=innput.nextLine();
-
-girlname girlnameobject=new girlname();
-girlnameobject.setname(girlname);
+girlname girlnameobject=new girlname("nila");
+girlname girlnameobject2=new girlname("nilassi");
+//girlnameobject.setname(girlname);
+//girlnameobject.display();
 girlnameobject.display();
-
+girlnameobject2.display();
 }
 }
