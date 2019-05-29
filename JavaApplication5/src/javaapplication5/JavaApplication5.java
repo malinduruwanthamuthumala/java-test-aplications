@@ -16,7 +16,8 @@ public class JavaApplication5 {
      */
     public static void main(String[] args) {
         freq freqobject=new freq();
-        freqobject.frequency();
+        enhancedforloop loopobject=new enhancedforloop();
+        loopobject.enhanced();
     }
     
 }
