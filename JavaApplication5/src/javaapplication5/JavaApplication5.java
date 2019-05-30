@@ -15,9 +15,8 @@ public class JavaApplication5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        freq freqobject=new freq();
-        enhancedforloop loopobject=new enhancedforloop();
-        loopobject.enhanced();
+      varlen varlenobject=new varlen();
+      System.out.println(varlen.average(4,54,5,4,5,4,4));
     }
     
 }
