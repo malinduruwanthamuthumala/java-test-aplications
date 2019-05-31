@@ -17,7 +17,8 @@ public class JavaApplication5 {
     public static void main(String[] args) {
    //  constructoroverloadiingex newmethod=new constructoroverloadiingex();
    //constructoroverloadiingex newmethod=new constructoroverloadiingex(10);
- constructoroverloadiingex newmethod=new constructoroverloadiingex(10,"hello");
+// constructoroverloadiingex newmethod=new constructoroverloadiingex(10,"hello");
+    tostring obj=new tostring(4,2,6);
     }
     
 }
