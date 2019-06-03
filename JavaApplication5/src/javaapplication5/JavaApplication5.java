@@ -18,9 +18,12 @@ public class JavaApplication5 {
    //  constructoroverloadiingex newmethod=new constructoroverloadiingex();
    //constructoroverloadiingex newmethod=new constructoroverloadiingex(10);
 // constructoroverloadiingex newmethod=new constructoroverloadiingex(10,"hello");
-    tostring obj=new tostring(4,2,6);
-    compex ibj1=new compex("malindu",obj);
-    System.out.println(ibj1);
+//   
+        
+        
+       enumex obj1=new enumex("nila","kura");
+       enumex obj2=new enumex("malindu","ruantha");
+        
     }
     
 }
