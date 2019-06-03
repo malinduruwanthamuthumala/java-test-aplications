@@ -9,17 +9,8 @@ package javaapplication5;
  *
  * @author Malindu
  */
-public class JavaApplication5 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        cat obj1=new cat();
-        dog obj2=new dog();
-        obj2.eat();
-        obj1.eat();
-        
+public class dog extends animal{
+    public void eat(){
+    System.out.println("i am barking");
     }
-    
 }
