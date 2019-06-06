@@ -27,5 +27,14 @@ public class Student {
   this.grade=grade;
  
  }
+  
+ public void setGrade(int grade){
+     this.grade=grade;
+ }
+ 
+ public void updateFees(int fees){
+     feespaid+=fees;
+ }
+ 
  
 }
