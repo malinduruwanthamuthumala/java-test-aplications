@@ -35,6 +35,17 @@ public class Student {
  public void updateFees(int fees){
      feespaid+=fees;
  }
+ public int getgrade(){
+     return this.grade;
+ }
  
- 
+ public int getfeespaid(){
+     return this.feespaid;
+ }
+ public String getname(){
+     return this.name;
+ }
+ public int gettotoalfees(){
+ return this.feestotal;
+ }
 }
