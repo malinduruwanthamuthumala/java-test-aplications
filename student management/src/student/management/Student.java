@@ -13,7 +13,19 @@ public class Student {
  private int grade;
  private int feespaid;
  private int feestotal;
+ /**
+  * 
+  * @param id id of the student unique
+  * @param name not unique name of the student
+  * @param grade grade of the student
+  */
+ public Student(int id,String name,int grade){
+  this.feespaid=0;
+  this.feestotal=30000; 
+  this.id=id;
+  this.name=name;
+  this.grade=grade;
  
-  
+ }
  
 }
