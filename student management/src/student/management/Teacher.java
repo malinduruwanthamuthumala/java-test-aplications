@@ -20,6 +20,14 @@ public class Teacher {
        this.salary=salary;
        
    }
+   
+   public String getName(){
+       return this.name;
+   }
+   
+   public int getSalary(){
+       return  this.salary;
+   }
 }
 
 
