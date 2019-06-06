@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * this class is responsible for keepning student details
  */
 package student.management;
 
@@ -10,5 +8,12 @@ package student.management;
  * @author Malindu
  */
 public class Student {
-    
+ private int id;
+ private String name;
+ private int grade;
+ private int feespaid;
+ private int feestotal;
+ 
+  
+ 
 }
