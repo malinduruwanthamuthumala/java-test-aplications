@@ -9,14 +9,6 @@ package javaapplication5;
  *
  * @author Malindu
  */
-public class JavaApplication5 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        abstractex obj1=new Ma();
-     
-    }
+public interface NewInterface {
     
 }
